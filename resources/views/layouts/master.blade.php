@@ -75,11 +75,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <i class="nav-icon fas fa-tachometer-alt blue"></i>
               <p>
                 Dashboard
-               
+
               </p>
             </a>
           </li>
-          
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-cog green"></i>
@@ -100,10 +100,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
           <li class="nav-item">
             <router-link to="/profile" class="nav-link">
-              <i class="nav-icon fas fa-user orange"></i>
+              <i class="nav-icon fas fa-user-tie cyan"></i>
               <p>
                 Profile
-               
+
               </p>
             </a>
           </li>
@@ -123,7 +123,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </form>
 
           </li>
-          
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -139,6 +139,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="content">
       <div class="container-fluid">
         <router-view></router-view>
+
+        <vue-progress-bar></vue-progress-bar>
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content -->
